@@ -34,3 +34,11 @@ function calculateWeight() {
         resultsDiv.appendChild(resultItem);
     });
 }
+
+
+// Add event listener for Enter key
+document.getElementById('earthWeight').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        calculateWeight();
+    }
+});
