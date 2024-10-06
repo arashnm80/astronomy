@@ -3,7 +3,7 @@ body {
     background-color: rgba(0, 0, 0, 0.411);
     text-align: center;
     margin: auto;
-    padding: 20px;
+    padding: auto;
     color: rgba(255, 255, 255, 0.717);
 }
 
@@ -14,7 +14,7 @@ body {
     max-width: 600px;
     margin: auto;
     background-color: black;
-    padding: 20px;
+    padding: auto;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     align-items: center;
@@ -26,16 +26,17 @@ h1 {
 }
 
 input {
-    padding: 10px;
+    margin: auto;
+    padding: auto;
     width: calc(100% - 22px);
-    margin-bottom: auto;
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0.836);
     color: rgba(255, 255, 255, 0.717);
 }
 
 button {
-    padding: 10px 20px;
+    margin: auto;
+    padding: auto;
     font-size: 16px;
     background-color: #007bff;
     color: white;
@@ -50,7 +51,8 @@ button:hover {
 }
 
 .results {
-    margin-top: auto;
+    margin: auto;
+    padding: auto;
 }
 
 .result-item span {
