@@ -57,6 +57,7 @@ button:hover {
 }
 
 .result-item span {
+    text-align: right;
     font-size: 18px;
     color: #333;
 }
