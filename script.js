@@ -1,20 +1,20 @@
 function calculateWeight() {
     const earthWeight = document.getElementById('earthWeight').value;
     if (!earthWeight) {
-        alert("Please enter a valid weight.");
+        alert("لطفا وزن مورد نظر را وارد کنید.");
         return;
     }
 
     const planets = [
-        { name: "Mercury", gravity: 0.38, img: "https://example.com/mercury.png" },
-        { name: "Venus", gravity: 0.91, img: "https://example.com/venus.png" },
-        { name: "Earth", gravity: 1, img: "https://example.com/earth.png" },
-        { name: "Mars", gravity: 0.38, img: "https://example.com/mars.png" },
-        { name: "Jupiter", gravity: 2.34, img: "https://example.com/jupiter.png" },
-        { name: "Saturn", gravity: 1.06, img: "https://example.com/saturn.png" },
-        { name: "Uranus", gravity: 0.92, img: "https://example.com/uranus.png" },
-        { name: "Neptune", gravity: 1.19, img: "https://example.com/neptune.png" },
-        { name: "Moon", gravity: 0.16, img: "https://example.com/moon.png" }
+        { name: "Mercury | عطارد", gravity: 0.38, img: "https://en.wikipedia.org/wiki/Mercury_(planet)#/media/File:Mercury_in_true_color.jpg" },
+        { name: "Venus | زهره", gravity: 0.91, img: "https://example.com/venus.png" },
+        { name: "Earth | زمین", gravity: 1, img: "https://example.com/earth.png" },
+        { name: "Mars | مریخ", gravity: 0.38, img: "https://example.com/mars.png" },
+        { name: "Jupiter | مشتری", gravity: 2.34, img: "https://example.com/jupiter.png" },
+        { name: "Saturn | زحل", gravity: 1.06, img: "https://example.com/saturn.png" },
+        { name: "Uranus | اورانوس", gravity: 0.92, img: "https://example.com/uranus.png" },
+        { name: "Neptune | نپتون", gravity: 1.19, img: "https://example.com/neptune.png" },
+        { name: "Moon | ماه", gravity: 0.16, img: "https://en.wikipedia.org/wiki/Moon#/media/File:FullMoon2010.jpg" }
     ];
 
     const resultsDiv = document.getElementById('results');
