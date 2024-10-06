@@ -1,3 +1,9 @@
+* {
+    margin: 10px; /* Apply 10px margin to all elements */
+    padding: 10px; /* Apply 10px padding to all elements */
+    box-sizing: border-box; /* Ensures padding is included in element's total width and height */
+}
+
 body {
     font-family: 'Tahoma', sans-serif;
     background-color: rgba(0, 0, 0, 0.411);
