@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Tahoma', sans-serif;
     background-color: rgba(0, 0, 0, 0.411);
     text-align: center;
     margin: 0;
@@ -17,6 +17,8 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    font-family: 'Tahoma', sans-serif;
 }
 
 h1 {
@@ -40,6 +42,7 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-family: 'Tahoma', sans-serif;
 }
 
 button:hover {
@@ -50,24 +53,11 @@ button:hover {
     margin-top: 20px;
 }
 
-.result-item {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-}
-
-.result-item img {
-    height: 50px;
-    margin-right: 20px;
-}
-
 .result-item span {
-    text-align: right;
+    text-align: center;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.717);
 }
-
-
 
 .result-item {
     display: flex;
@@ -78,29 +68,36 @@ button:hover {
 .planet-names {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
-    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* text-align: center; */
+    /* align-items: center; */
 }
 
 .name-fa {
-    font-family: 'Tahoma', sans-serif; /* Persian font style */
+    font-family: 'Tahoma', sans-serif;
+    font-weight: bold;
     font-size: 16px;
-    direction: rtl; /* Right to left for Persian */
+    direction: rtl; /* center to center for Persian */
+    text-align: center;
 }
 
 .name-en {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: bold;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.717);
+    text-align: center;
 }
 
 .weight-result {
-    margin-left: auto;
-    text-align: right;
+    /* margin-center: auto; */
+    text-align: center;
     font-weight: bold;
 }
 
 img {
     height: 50px;
     object-fit: cover;
+    /* text-align: center; */
 }
