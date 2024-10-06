@@ -44,6 +44,7 @@ button {
     margin: auto;
     padding: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 16px;
     background-color: #007bff;
     color: white;
@@ -71,7 +72,8 @@ button:hover {
 .result-item {
     display: flex;
     align-items: center;
-    margin-bottom: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .planet-names {
