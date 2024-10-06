@@ -1,7 +1,7 @@
 function calculateWeight() {
     const earthWeight = document.getElementById('earthWeight').value;
     if (!earthWeight) {
-        alert("لطفا وزن مورد نظر را وارد کنید.");
+        alert("لطفا وزن مورد نظر را وارد کنید");
         return;
     }
 
