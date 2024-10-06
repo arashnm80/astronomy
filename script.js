@@ -7,15 +7,16 @@ function calculateWeight() {
 
     const planets = [
         { name: "Mercury | عطارد", gravity: 0.38, img: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" },
-        { name: "Venus | زهره", gravity: 0.91, img: "https://example.com/venus.png" },
-        { name: "Earth | زمین", gravity: 1, img: "https://example.com/earth.png" },
-        { name: "Mars | مریخ", gravity: 0.38, img: "https://example.com/mars.png" },
-        { name: "Jupiter | مشتری", gravity: 2.34, img: "https://example.com/jupiter.png" },
-        { name: "Saturn | زحل", gravity: 1.06, img: "https://example.com/saturn.png" },
-        { name: "Uranus | اورانوس", gravity: 0.92, img: "https://example.com/uranus.png" },
-        { name: "Neptune | نپتون", gravity: 1.19, img: "https://example.com/neptune.png" },
-        { name: "Moon | ماه", gravity: 0.16, img: "https://en.wikipedia.org/wiki/Moon#/media/File:FullMoon2010.jpg" }
+        { name: "Venus | زهره", gravity: 0.91, img: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" },
+        { name: "Earth | زمین", gravity: 1, img: "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" },
+        { name: "Mars | مریخ", gravity: 0.38, img: "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" },
+        { name: "Jupiter | مشتری", gravity: 2.34, img: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" },
+        { name: "Saturn | زحل", gravity: 1.06, img: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg" },
+        { name: "Uranus | اورانوس", gravity: 0.92, img: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" },
+        { name: "Neptune | نپتون", gravity: 1.19, img: "https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" },
+        { name: "Moon | ماه", gravity: 0.16, img: "https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg" }
     ];
+    
 
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '';
