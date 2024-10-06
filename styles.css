@@ -87,7 +87,7 @@ button:hover {
     flex-direction: column;
     margin-right: auto;
     margin-left: auto;
-    /* text-align: center; */
+    text-align: right;
     /* align-items: center; */
 }
 
@@ -116,5 +116,6 @@ button:hover {
 img {
     height: 50px;
     object-fit: cover;
+    text-align: left;
     /* text-align: center; */
 }
