@@ -6,7 +6,7 @@ function calculateWeight() {
     }
 
     const planets = [
-        { name: "Mercury | عطارد", gravity: 0.38, img: "https://en.wikipedia.org/wiki/Mercury_(planet)#/media/File:Mercury_in_true_color.jpg" },
+        { name: "Mercury | عطارد", gravity: 0.38, img: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" },
         { name: "Venus | زهره", gravity: 0.91, img: "https://example.com/venus.png" },
         { name: "Earth | زمین", gravity: 1, img: "https://example.com/earth.png" },
         { name: "Mars | مریخ", gravity: 0.38, img: "https://example.com/mars.png" },
