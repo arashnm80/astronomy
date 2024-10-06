@@ -2,7 +2,7 @@ body {
     font-family: 'Tahoma', sans-serif;
     background-color: rgba(0, 0, 0, 0.411);
     text-align: center;
-    margin: 0;
+    margin: auto;
     padding: 20px;
     color: rgba(255, 255, 255, 0.717);
 }
@@ -28,7 +28,7 @@ h1 {
 input {
     padding: 10px;
     width: calc(100% - 22px);
-    margin-bottom: 20px;
+    margin-bottom: auto;
     font-size: 16px;
     background-color: rgba(0, 0, 0, 0.836);
     color: rgba(255, 255, 255, 0.717);
@@ -50,7 +50,7 @@ button:hover {
 }
 
 .results {
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 .result-item span {
@@ -62,14 +62,14 @@ button:hover {
 .result-item {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: auto;
 }
 
 .planet-names {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     /* text-align: center; */
     /* align-items: center; */
 }
